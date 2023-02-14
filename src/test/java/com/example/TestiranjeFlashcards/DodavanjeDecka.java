@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
@@ -47,8 +48,11 @@ public class DodavanjeDecka {
     driver.get("http://localhost:3000/Home");
     driver.findElement(By.xpath("//div[@id='deckName']/input")).click();
     driver.findElement(By.xpath("//div[@id='deckName']/input")).clear();
-    driver.findElement(By.xpath("//div[@id='deckName']/input")).sendKeys("Testiranje2");
+    driver.findElement(By.xpath("//div[@id='deckName']/input")).sendKeys("Testiranje");
     driver.findElement(By.xpath("//button[@type='submit']")).click();
+    String url = driver.getCurrentUrl();
+    Assert.assertEquals(url, "http://localhost:3000/Home/Testiranje");
+
   }
 
   @AfterClass(alwaysRun = true)
