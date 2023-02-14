@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "TestiranjeFlashcards">
+<test name = "Login">
+    <classes>
+        <class name = "com.example.TestiranjeFlashcards.Login"/>
+    </classes>
+</test>
+<test name = "DodavanjeDecka">
+    <classes>
+        <class name = "com.example.TestiranjeFlashcards.DodavanjeDecka"/>
+    </classes>
+</test>
+<test name = "DodavanjeKartica">
+    <classes>
+
+        <class name = "com.example.TestiranjeFlashcards.DodavanjeKartica"/>
+    </classes>
+</test>
+<test name = "SignUp">
+    <classes>
+        <class name = "com.example.TestiranjeFlashcards.SignUp"/>
+    </classes>
+</test>
+<test name = "UEnje">
+    <classes>
+        <class name = "com.example.TestiranjeFlashcards.UEnje"/>
+    </classes>
+</test>
+</suite>
