@@ -8,13 +8,13 @@ To je web aplikacija za kreiranje kartica za učenje, gdje se na svakoj kartici 
 Zadatak ima 5 testnih slučajeva:\
 • Prijavljivanje\
 • Registriranje\
-• Kreiranje špila za kartice\
+• Kreiranje špila za kartice
 * Nakon što je korisnik prijavljen testira se radi li mogućnost kreiranja špilova\
 
 • Kreiranje kartica
 *  U kreirani špil testira dodavanje 3 novih kartica
 
-• Pokretanje učenja\
+• Pokretanje učenja
 * Ovaj test samo prolazi kroz postojeće kartice i ako postoje stavlja ocjene\
 
 Korišteni alati:\
