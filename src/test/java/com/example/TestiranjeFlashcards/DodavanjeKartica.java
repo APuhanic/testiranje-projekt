@@ -43,7 +43,7 @@ public class DodavanjeKartica {
 
     driver.get("http://localhost:3000/Home");
 
-    driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div/div/div[8]/button")).click();
+    driver.findElement(By.xpath("/html/body/div/div/div/div[2]/div/div/div[4]/button")).click();
     driver.findElement(By.xpath("//div[@id='question']/textarea")).click();
     driver.findElement(By.xpath("//div[@id='question']/textarea")).clear();
     driver.findElement(By.xpath("//div[@id='question']/textarea")).sendKeys("Prvo pitanje.");
